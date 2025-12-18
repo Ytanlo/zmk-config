@@ -1,0 +1,10 @@
+/ {
+    chosen {
+        zmk,display = &oled;
+    };
+};
+
+&oled {
+    compatible = "ssd1306";
+    status = "okay";
+};
