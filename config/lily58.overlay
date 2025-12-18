@@ -7,4 +7,6 @@
 &oled {
     compatible = "ssd1306";
     status = "okay";
+    width = <128>;
+    height = <64>;
 };
